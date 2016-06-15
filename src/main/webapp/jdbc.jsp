@@ -12,17 +12,17 @@
 		<tr>
 			<td width="10%">url:</td>
 			<td width="90%"><input type="text" name="url" size="100"
-				value="jdbc:oracle:thin:@10.88.15.196:1521:uml" /></td>
+				value="jdbc:oracle:thin:@192.168.1.100:1521:oracle" /></td>
 		</tr>
 		<tr>
 			<td width="10%">user:</td>
 			<td width="90%"><input type="text" name="user" size="100"
-				value="MULD" /></td>
+				value="demo" /></td>
 		</tr>
 		<tr>
 			<td width="10%">password:</td>
 			<td width="90%"><input type="text" name="password" size="100"
-				value="muldsfghs#3" /></td>
+				value="password" /></td>
 		</tr>
 		<tr>
 			<td colspan="2"><input type="submit" value="Test Conn" /></td>
