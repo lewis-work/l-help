@@ -3,7 +3,6 @@ package org.lewis.work.help;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 @RequestMapping("/jdbc")
 public class JDBCController {
+
 	@RequestMapping("/success")
 	public String success(Model model) {
 		return "success";
@@ -33,7 +33,8 @@ public class JDBCController {
 		// 2.建立到数据库的连接
 		Connection conn = DriverManager.getConnection(url, user, password);
 		// 3.将数据发送到数据库中
-		Statement stm = conn.createStatement();
+		conn.createStatement();
 		return "redirect:/success.jsp";
 	}
+
 }
