@@ -4,6 +4,7 @@
 <p>Now, you can: </p>
 
 <ol>
-	<li><a href="<%=request.getContextPath()%>/file.jsp">上传文件</a></li>
-	<li><a href="<%=request.getContextPath()%>/jdbc.jsp">测试数据库连接</a></li>
+	<li><a href="<%=request.getContextPath()%>/file.jsp">Upload Files</a></li>
+	<li><a href="<%=request.getContextPath()%>/jdbc.jsp">Test JDBC</a></li>
+	<li><a href="<%=request.getContextPath()%>/auth.jsp">Test LDAP</a></li>
 </ol>
